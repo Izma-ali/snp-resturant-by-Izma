@@ -1,0 +1,358 @@
+@font-face {
+  font-family: "Apercu";
+  src: url("fonts/Apercu Font Family/Apercu Light.otf");
+}
+@font-face {
+  font-family: "Futurak";
+  src: url("fonts/futurak.ttf");
+}
+@font-face {
+  font-family: "Butler";
+  src: url("fonts/Butler Font Family/Butler_Bold.otf");
+}
+@font-face{
+  font-family: "ButlerLight";
+  src: url("fonts/Butler Font Family/Butler_Ultra_Light.otf");
+}
+* {
+  margin: 0%;
+  font-family: "Apercu";
+}
+h2 {
+  font-weight: 400;
+}
+h3 {
+  font-weight: 400;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "Apercu";
+}
+.header {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  margin-top: 8px;
+  align-items: center;
+}
+
+.img1 {
+  padding-right: 200px;
+}
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+.links {
+  display: flex;
+}
+a{
+  display: flex;
+  justify-content: space-evenly;
+  width: 95px;
+}
+.headerbuttons{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.hdrbtn {
+  width: 130px;
+  height: 55px;
+  border-radius: 50px;
+  color: white;
+  border: 1px solid white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.hdrbtn2 {
+  width: 150px;
+  height: 55px;
+  border-radius: 50px;
+  color: white;
+  border: black;
+  background-color: #ed1c24;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.welcome {
+  font-size: 40px;
+  text-align: center;
+}
+
+.imgcontainer {
+  display: flex;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0 100px 0;
+}
+.smallimgs {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+}
+.brands {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  width: 170px;
+  height: 70px;
+  margin: auto;
+  margin-top: 24px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  border: 1px solid #fff5;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff1;
+  padding: 50px 0 40px 0;
+}
+.location {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.locdetails {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heading2 {
+  font-size: 48px;
+  margin: 0;
+  font-family: "Futurak";
+}
+.para {
+  font-size: 16px;
+  /* padding-bottom: 50px; */
+  margin-bottom: 50px;
+  margin-top: 10px;
+  color: #ffffffaa;
+}
+.hdng4 {
+  color: #ffffffaa;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+  display: flex;
+  
+}
+.hdng2 {
+  margin-top: 15px;
+  font-family: "Futurak";
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 18px;
+}
+.isl {
+  font-size: 16px;
+  letter-spacing: 8px;
+  color: #ed1c24;
+  font-weight: 500;
+}
+
+.directbtn {
+  margin-top: 40px;
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  color: white;
+  border: 1px solid #fff5;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.restufr {
+  font-family: "Apercu";
+}
+.location2 {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 60%;
+  justify-content: space-between;
+  margin: 40px 0 40px 0;
+}
+.restufr {
+  font-family: "Butler";
+}
+.container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+.expdetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+}
+.ehdng2 {
+  font-family: "Futurak";
+  font-size: 24px;
+  line-height: 38px;
+  margin-bottom: 10px;
+}
+.eisl {
+  font-size: 12px;
+  letter-spacing: 8px;
+  color: #ed1c24;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.exprestu1{
+  display: flex;
+  margin-top: 30px;  
+}
+.container5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff1;
+  padding: 50px 0 40px 0;
+}
+.cont3det{
+  display: flex;
+  width:100% ;
+  justify-content: flex-start;
+  margin-top: 30px;
+   
+}
+.villdet{
+  margin-top: 150px;
+  text-align: left;
+}
+.osoon{
+  font-size: 26px;
+  font-family: 'butler';
+}
+.snp{
+  font-size: 52px;
+  font-family: 'Futurak';
+}
+.container6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;   
+  padding: 60px 0px;
+}
+.wcont{
+  background-color: #FFFFFF;
+  color: black;
+  /* margin-top: 30px */
+  padding-top: 20px; 
+  width: 350px;
+  /* height: 275; */
+  border-radius: 4px;
+  padding-bottom: 15px;
+  margin-bottom: 35px;
+}
+.redfont{
+  font-size: 10px;
+  letter-spacing: 5px;
+  color: #ed1c24;
+  font-weight: 500;
+  margin-top: 8px;
+}
+.wboxdet{
+  font-size: 21px;
+  font-family: 'ButlerLight';
+  font-weight: 400px;
+}
+.wbsnp{
+  font-size: 24px;
+  font-family: 'Butler';
+}
+.whitecontainers{
+  line-height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.socfeed{
+  font-family: 'Butler';
+  font-size: 32PX;
+  text-align: center;
+  margin-top: 40PX;
+  margin-bottom: 40px;
+}
+.foodimgs{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 70px;
+}
+.footercontainer{
+  background-color: #fff1;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  
+}
+.footercont{
+  display: flex;
+  width: 1200px;
+  text-align: start;
+  font-size: 15px;
+  color: #ffffffaa;
+  font-weight: 400px;
+  margin-bottom: 50px;
+}
+.fcont1{
+  margin-right: 80px;
+  line-height: 35px;
+  
+}
+.foothead{
+  font-size: 19px;
+  font-family: 'Butler';
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+.footpara{
+  line-height: 23px;
+  margin-bottom: 15px;
+}
+.outerdiv{
+  background-color: #fff1;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.lastdiv{
+  display: flex;
+  justify-content: space-between;
+  width:1200px ;
+  font-size: 14px;
+  color: #ffffffaa;
+  word-spacing: 4px;
+}
